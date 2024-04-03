@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.light{
+    --body-bg: white;
+    --text-color: black;
+    --button-color: white;
+    --button-bg: black;
+}
+
+.dark{
+    --body-bg: black;
+    --text-color: white;
+    --text-color2: black;
+    --button-bg: white;
+}
+
+body.dark{
+    background-color: var(--body-bg);
+}
+
+h1{
+    color: var(--text-color);
+}
+p{
+    color: var(--text-color);
+}
+
+#botao{
+    background-color: var(--button-bg);
+    color: var(--button-color);
+}
+
+#botao {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
